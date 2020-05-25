@@ -66,8 +66,7 @@ var Quiz = function () {
     var QuestionBannerQuestion= "<h2>" + questions[CurrentNumber].question + "<h2";
 
     for (i =0; i <questions[CurrentNumber].options.length; i++) {
-        var button = "<button onclick=\"[ANS]\">[OPTIONS]</button>";
-        button = button.replace("[OPTIONS]", questions[CurrentNumber].options[i]);
+        
     }
     document.getElementById("Questions").innerHTML = QuestionBannerQuestion;
 
