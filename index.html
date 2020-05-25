@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--links the CSS document to the HTML page-->
+    <link rel="stylesheet" href="../Code-Quiz/develop/assets/CSS/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+</head>
+<!-- Code Starts Here-->
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <!--opens link to high scores that are saved-->
+                    <a href="../Code-Quiz/savedScores.html">High Score Leaderboard</a>
+                </li>
+                <li>
+                    <!--placeholds the result of the timing function in java file -->
+                    <p id="timer"></p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!--Questions section, where the javascript and function of the quiz will show up on the webpage-->
+    <section id="Questions">
+        <h2>
+            Coding Quiz
+        </h2>
+        <h3>
+            Click the Start button to Begin and Race against the Clock!
+        </h3>
+        <!--Holds the function that starts the quiz by clicking the start button-->
+        <div id="QuizStart">
+            <button onclick="">Start Quiz! :)</button>
+        </div>
+    </section>
+<!--Javascript file is introduced at the bottom of the page for a top down approach-->
+    <script src="../Code-Quiz/develop/assets/js/script.js"></script>
+</body>
+
+</html>
