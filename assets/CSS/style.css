@@ -4,10 +4,9 @@ body {
 }
 
 nav {
-    display: inline block;
-    margin: 2px;
-    padding: 10px;
-    
+    display: block;
+    padding: 10px; 
+    margin: 15px;
 }
 
 ul {
@@ -16,10 +15,19 @@ ul {
 
 .left-corner {
     float: left;
+    border-bottom: solid 2px;
+    margin: -10px
+    
 }
 
 .right-corner {
     float: right;
+    border-bottom: solid 2px;
+}
+
+.HighScoreLink {
+    text-decoration: none;
+
 }
 
 #timer {
@@ -46,10 +54,19 @@ h3 {
 
 #QuizStart {
     align-items: center;
+    text-align: center;
+    
 }
 
-button {
-    float: center;
+.StartGameButton {
+    text-align: center;
+    align-self: center;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
 }
 
 

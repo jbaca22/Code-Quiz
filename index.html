@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!--links the CSS document to the HTML page-->
-    <link rel="stylesheet" href="../Code-Quiz/develop/assets/CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="../Code-Quiz/assets/CSS/style.css"  type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
@@ -14,7 +14,7 @@
             <ul>
                 <li class="left-corner">
                     <!--opens link to high scores that are saved-->
-                    <a href="../Code-Quiz/savedScores.html">High Score Leaderboard</a>
+                    <a class="HighScoreLink" href="../Code-Quiz/savedScores.html">High Score Leaderboard</a>
                 </li>
                 <li class="right-corner">
                     <!--placeholds the result of the timing function in java file -->
@@ -33,11 +33,11 @@
         </h3>
         <!--Holds the function that starts the quiz by clicking the start button-->
         <div id="QuizStart">
-            <button onclick="">Start Quiz! :)</button>
+            <button class="StartGameButton" type="button" onclick="StartGame()">Start Quiz! :)</button>
         </div>
     </section>
 <!--Javascript file is introduced at the bottom of the page for a top down approach-->
-    <script src="../Code-Quiz/develop/assets/js/script.js"></script>
+    <script type="text/javascript" src="../Code-Quiz/assets/js/script.js"></script>
 </body>
 
 </html>
